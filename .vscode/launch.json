@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "name": "Python: calculate_rscu",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "rscu.calculate_rscu",
+            "justMyCode": true,
+            "python": "/opt/miniconda3/envs/bioinfo/bin/python"
+        }
+    ]
+}
