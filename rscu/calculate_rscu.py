@@ -30,8 +30,8 @@ def save_json(rscu_values, path):
 w = 21*3
 d = 40*3
 
-tsv_path = PROJ_DIR / 'data/sp_regions_slowmode.tsv'
-fasta_path = PROJ_DIR / 'data/sp_dna_slowmode.fasta'
+tsv_path = PROJ_DIR / 'data/filtered/sp_regions_filtered.tsv'
+fasta_path = PROJ_DIR / 'data/filtered/dna_filtered.fasta'
 
 df, records = load_sequence_data(tsv_path=tsv_path, fasta_path=fasta_path)
 
@@ -72,6 +72,6 @@ for record in records:
         'window': full_rscu.rscu_values
     }
 
-path = PROJ_DIR / "data/rscu_values.json"
+path = PROJ_DIR / "data/rscu_values_filtered.json"
 save_json(values, path)
     
