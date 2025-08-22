@@ -56,7 +56,7 @@ Val V
 Stop
 '''
 
-# Excluding stop codons
+# Including stop codons
 AA_TO_CODONS = {
     'A': ['GCT', 'GCC', 'GCA', 'GCG'],
     'R': ['CGT', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
@@ -77,10 +77,11 @@ AA_TO_CODONS = {
     'T': ['ACT', 'ACC', 'ACA', 'ACG'],
     'W': ['TGG'],
     'Y': ['TAT', 'TAC'],
-    'V': ['GTT', 'GTC', 'GTA', 'GTG']
+    'V': ['GTT', 'GTC', 'GTA', 'GTG'],
+    'STOP': ['TAA', 'TAG', 'TGA']
 }
 
-# Excluding stop codons
+# All codons, including stop codons
 CODON_TO_AA = {
     'GCT': 'A', 
     'GCC': 'A', 
@@ -142,7 +143,118 @@ CODON_TO_AA = {
     'GTT': 'V', 
     'GTC': 'V', 
     'GTA': 'V', 
+    'GTG': 'V',
+    'TAA': 'STOP',
+    'TAG': 'STOP',
+    'TGA': 'STOP'
+}
+
+# Excluding stop codons and singular codon families (ATG, TGG)
+CODON_TO_AA_MULTI_CODON_FAMILIES = {
+    'GCT': 'A', 
+    'GCC': 'A', 
+    'GCA': 'A', 
+    'GCG': 'A',
+    'CGT': 'R', 
+    'CGC': 'R', 
+    'CGA': 'R', 
+    'CGG': 'R', 
+    'AGA': 'R', 
+    'AGG': 'R',
+    'AAT': 'N', 
+    'AAC': 'N',
+    'GAT': 'D', 
+    'GAC': 'D',
+    'TGT': 'C', 
+    'TGC': 'C',
+    'CAA': 'Q', 
+    'CAG': 'Q',
+    'GAA': 'E', 
+    'GAG': 'E',
+    'GGT': 'G', 
+    'GGC': 'G', 
+    'GGA': 'G', 
+    'GGG': 'G',
+    'CAT': 'H', 
+    'CAC': 'H',
+    'ATT': 'I', 
+    'ATC': 'I', 
+    'ATA': 'I',
+    'TTA': 'L', 
+    'TTG': 'L', 
+    'CTT': 'L', 
+    'CTC': 'L', 
+    'CTA': 'L', 
+    'CTG': 'L',
+    'AAA': 'K', 
+    'AAG': 'K',
+    'TTT': 'F', 
+    'TTC': 'F',
+    'CCT': 'P', 
+    'CCC': 'P', 
+    'CCA': 'P', 
+    'CCG': 'P',
+    'TCT': 'S', 
+    'TCC': 'S', 
+    'TCA': 'S', 
+    'TCG': 'S', 
+    'AGT': 'S', 
+    'AGC': 'S',
+    'ACT': 'T', 
+    'ACC': 'T', 
+    'ACA': 'T', 
+    'ACG': 'T',
+    'TAT': 'Y', 
+    'TAC': 'Y',
+    'GTT': 'V', 
+    'GTC': 'V', 
+    'GTA': 'V', 
     'GTG': 'V'
 }
 
-STOP_CODONS = ['TAA', 'TAG', 'TGA']
+# Excluding stop codons and singular codon families (ATG, TGG)
+AA_TO_CODONS_MULTI_CODON_FAMILIES = {
+    'A': ['GCT', 'GCC', 'GCA', 'GCG'],
+    'R': ['CGT', 'CGC', 'CGA', 'CGG', 'AGA', 'AGG'],
+    'N': ['AAT', 'AAC'],
+    'D': ['GAT', 'GAC'],
+    'C': ['TGT', 'TGC'],
+    'Q': ['CAA', 'CAG'],
+    'E': ['GAA', 'GAG'],
+    'G': ['GGT', 'GGC', 'GGA', 'GGG'],
+    'H': ['CAT', 'CAC'],
+    'I': ['ATT', 'ATC', 'ATA'],
+    'L': ['TTA', 'TTG', 'CTT', 'CTC', 'CTA', 'CTG'],
+    'K': ['AAA', 'AAG'],
+    'F': ['TTT', 'TTC'],
+    'P': ['CCT', 'CCC', 'CCA', 'CCG'],
+    'S': ['TCT', 'TCC', 'TCA', 'TCG', 'AGT', 'AGC'],
+    'T': ['ACT', 'ACC', 'ACA', 'ACG'],
+    'Y': ['TAT', 'TAC'],
+    'V': ['GTT', 'GTC', 'GTA', 'GTG']
+}
+
+# Fast and slow codons as defined in Dao Duc & Song 2018
+SLOW = [
+    'TCG',
+    'CCG',
+    'ACG',
+    'GCG',
+    'GGG',
+    'ATA',
+    'CTG',
+    'CGA',
+    'CGG',
+    'GTG'
+]
+
+FAST = [
+    'TCT',
+    'TCC',
+    'GCC',
+    'GGT',
+    'TTA',
+    'TTG',
+    'CGT',
+    'GTT'
+]

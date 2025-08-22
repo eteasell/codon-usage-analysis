@@ -18,11 +18,11 @@ w = 21
 # distance from cleavage site
 d = 40
 
-df_path = PROJ_DIR / 'data/sp_regions_slowmode.tsv'
+df_path = PROJ_DIR / 'data/filtered/sp_regions_filtered.tsv'
 df = pd.read_table(df_path, index_col='sys_name')
 print(df)
 
-fasta_path = PROJ_DIR / 'data/sp_proteins_slowmode.fasta'
+fasta_path = PROJ_DIR / 'data/filtered/proteins_filtered.fasta'
 records = list(SeqIO.parse(fasta_path, "fasta"))
 print(f"fasta records length: {len(records)}")
 
@@ -51,7 +51,6 @@ for record in records:
     
     # TODO: choose from the options line 75 to 78, then don't forget to update the figure title
     seq_region = window
-
     charges = [AA_CHARGES[aa] for aa in seq_region]
     
     pos_count = charges.count(+1)
@@ -112,6 +111,7 @@ print(heatmap_data)
 plt.figure(figsize=(8, 6))
 sns.heatmap(heatmap_data, annot=True, fmt="d", cmap="YlGnBu").invert_yaxis()
 
+# TODO: change title
 plt.title(f"Amino acid charge frequencies within window (w={w}, d={d})")
 plt.xlabel("Frequency of (+) charges")
 plt.ylabel("Frequency of (-) charges")

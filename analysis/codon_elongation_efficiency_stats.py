@@ -4,7 +4,7 @@ Compare elongation efficiencies from Duc KD, Song YS (2018) to the Subramanian e
 from analysis import PROJ_DIR
 
 codon_db = PROJ_DIR / 'literature/Subramanian et al. 2022/nuclear_codon_statistics.tsv'
-plos_db = PROJ_DIR / 'literature/Dao Duc & Song 2018/supp_data.xlsx'
+plos_db = PROJ_DIR / 'literature/Dao Duc & Song 2018/supp_data_updated.xlsx'
 
 import pandas as pd
 import matplotlib.pyplot as plt
