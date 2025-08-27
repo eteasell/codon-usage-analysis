@@ -1,6 +1,5 @@
 '''
-The purpose of this file iis to calculate RSCU values for specific stretches of genes. This is not necessarily full genes
-or just windows.
+This file contains helper funnctions to calculate RSCU values for given sequences.
 '''
 
 import numpy as np
@@ -10,6 +9,65 @@ from Bio.SeqRecord import SeqRecord
 from Bio.Seq import Seq
 from lib.aminoacids import AA_TO_CODONS_MULTI_CODON_FAMILIES, CODON_TO_AA, CODON_TO_AA_MULTI_CODON_FAMILIES
 from collections import Counter
+
+def run_rscu_analysis(records: list[SeqRecord], 
+                      arr_cs_n: np.ndarray, 
+                      arr_npet_n: np.ndarray, 
+                      w_n: int, 
+                      UseCS: bool, 
+                      UseSpAsWindow: bool):
+    '''
+    Run RSCU analysis on a list of SeqRecord objects.
+    records: list of SeqRecord objects
+    arr_cs: numpy array of cleavage site positions (in nucleotides, multiple of 3), must be same dim as records
+    arr_npet: numpy array of npet lengths (in nucleotides, multiple of 3), must be same dim as records
+    w_n: window size in nucleotides, multiple of 3
+    UseCS: whether to use cleavage site for window extraction
+    UseSpAsWindow: whether to use signal peptide as window instead of downstream ROI
+    
+    Returns: tuple of (window_rscu, full_rscu) where each is a dict of codon to RSCU value
+    '''
+    
+    complement_orfs = []
+    windows = []
+
+    # for each record in fasta, extract ROI and complemetn and concatenate with the rest of the ORFs
+    for i, record in enumerate(records): # record is SeqRecord object
+        
+        # find corresponding cs and npet values for this record
+        cs_n = int(arr_cs_n[i])
+        npet_n = int(arr_npet_n[i])
+        
+        # extract window and complement
+        if UseSpAsWindow:
+            extraction = extract_SP_and_complement(record, cs_n)
+        else:
+            # if UseCS is false, then we set cs_n to 0 to be able to extract windows from within the SP regions
+            if not UseCS: cs_n = 0
+            extraction = extract_window_and_complement(record, w_n, npet_n, cs_n)
+        if extraction is not None:
+            window_str, complement_str = extraction
+        else:
+            print(f"Invalid extraction for record {record.id}. Skipping.")
+            continue
+        
+        valid_window, codons_window = ensure_valid_orf(window_str)
+        valid_comp, codons_comp = ensure_valid_orf(complement_str)
+        
+        # only accept valid windows and full ORFS
+        if window_str is None or not valid_window or not valid_comp:
+            print(f"Invalid ORF for record {record.id}: complement valid: {valid_comp}, window valid: {valid_window}")
+            continue
+        else:
+            # concatenate codons to full lists
+            windows += codons_window
+            complement_orfs += codons_comp
+
+    window_rscu = calculate_rscu(windows)
+    full_rscu = calculate_rscu(complement_orfs)
+    
+    return window_rscu, full_rscu
+    
 
 def calculate_rscu(codons: list[str]) -> dict[str, float]:
     '''
@@ -99,7 +157,7 @@ def extract_window(record: SeqRecord, w: int, d: int, cs) -> str | None:
 
 def extract_window_and_complement(record: SeqRecord, w: int, d: int, cs) -> str | None:
     '''
-    record: the BioSeq sequence to be separated into window and full sequence
+    record: the BioSeq sequence to be separated into window and complement sequence
     w: window size (must be a multiple of 3)
     d: distance downstream from cleavage site
     cs: cleavage site
@@ -135,7 +193,14 @@ def extract_SP_and_complement(record: SeqRecord, cs) -> str | None:
     return sequence[0:cs], sequence[cs:]
 
 
-def ensure_valid_orf(sequence: str | None) -> tuple[bool, list[str]]: 
+def ensure_valid_orf(sequence: str | None) -> tuple[bool, list[str]]:
+    '''
+    Check a sequence (string) of codons to ensure that it is a valid ORF.
+    A valid ORF is defined as:
+    - Length is a multiple of 3
+    - All codons are real codons (in CODON_TO_AA)
+    Returns a tuple of (is_valid, codon_list)
+    ''' 
     if sequence is None: return False, []
     
     seq_len = len(sequence)
