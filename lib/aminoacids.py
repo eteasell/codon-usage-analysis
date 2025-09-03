@@ -32,29 +32,33 @@ AA_CHARGES = {
     '*': 0
 }
 
-'''
-Ala A
-Arg R
-Asn N
-Asp D
-Cys C
-Gln Q
-Glu E
-Gly G
-His H
-Ile I
-Leu L
-Lys K
-Met M
-Phe F
-Pro P
-Ser S
-Thr T
-Trp W
-Tyr Y
-Val V
-Stop
-'''
+# Three-letter to one-letter
+AA_3_TO_1 = {
+    "Ala": "A",
+    "Arg": "R",
+    "Asn": "N",
+    "Asp": "D",
+    "Cys": "C",
+    "Gln": "Q",
+    "Glu": "E",
+    "Gly": "G",
+    "His": "H",
+    "Ile": "I",
+    "Leu": "L",
+    "Lys": "K",
+    "Met": "M",
+    "Phe": "F",
+    "Pro": "P",
+    "Ser": "S",
+    "Thr": "T",
+    "Trp": "W",
+    "Tyr": "Y",
+    "Val": "V",
+}
+
+# One-letter to three-letter (inverse of above)
+AA_1_TO_3 = {v: k for k, v in AA_3_TO_1.items()}
+
 
 # Including stop codons
 AA_TO_CODONS = {
@@ -258,3 +262,4 @@ FAST = [
     'CGT',
     'GTT'
 ]
+
