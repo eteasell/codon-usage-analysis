@@ -5,34 +5,13 @@ Helper methods for working with genetic data
 from Bio.SeqRecord import SeqRecord
 from lib.aminoacids import CODON_TO_AA
 
-def extract_window(record: SeqRecord, w: int, d: int, cs) -> str | None:
-    '''
-    record: the BioSeq sequence to be separated into window and full sequence
-    w: window size (must be a multiple of 3)
-    d: distance downstream from cleavage site
-    cs: cleavage site
-    '''
-    assert w % 3 == 0
-    assert isinstance(d, int)
-    
-    sequence = str(record.seq)
-    
-    if len(record.seq) % 3 != 0:
-        print(f"Sequence {record.id} length is not a multiple of three.")
-        return None
-
-    if cs+d+w > len(sequence):
-        print(f"Sequence {record.id} too short for window choice.")
-        return None
-    
-    return sequence[cs+d:cs+d+w]
 
 def extract_window_and_complement(record: SeqRecord, w: int, d: int, cs) -> str | None:
     '''
     record: the BioSeq sequence to be separated into window and complement sequence
-    w: window size (must be a multiple of 3)
-    d: distance downstream from cleavage site
-    cs: cleavage site
+    w: window size, must be a multiple of three (in nucleotides) 
+    d: distance downstream from cleavage site (in nucleotides)
+    cs: cleavage site (in nucleotides)
     '''
     assert w % 3 == 0
     assert isinstance(d, int)
