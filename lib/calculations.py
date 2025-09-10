@@ -14,7 +14,8 @@ def run_rscu_analysis(records: list[SeqRecord],
                       arr_npet_n: np.ndarray, 
                       w_n: int, 
                       UseCS: bool, 
-                      UseSpAsWindow: bool):
+                      UseSpAsWindow: bool,
+                      silent: bool = False):
     '''
     Run RSCU analysis on a list of SeqRecord objects.
     records: list of SeqRecord objects
@@ -39,23 +40,25 @@ def run_rscu_analysis(records: list[SeqRecord],
         
         # extract window and complement
         if UseSpAsWindow:
-            extraction = extract_SP_and_complement(record, cs_n)
+            extraction = extract_SP_and_complement(record, cs_n, silent)
         else:
             # if UseCS is false, then we set cs_n to 0 to be able to extract windows from within the SP regions
             if not UseCS: cs_n = 0
-            extraction = extract_window_and_complement(record, w_n, npet_n, cs_n)
+            extraction = extract_window_and_complement(record, w_n, npet_n, cs_n, silent)
         if extraction is not None:
             window_str, complement_str = extraction
         else:
-            print(f"Invalid extraction for record {record.id}. Skipping.")
+            if not silent:
+                print(f"Invalid extraction for record {record.id}. Skipping.")
             continue
         
-        valid_window, codons_window = ensure_valid_orf(window_str)
-        valid_comp, codons_comp = ensure_valid_orf(complement_str)
+        valid_window, codons_window = ensure_valid_orf(window_str, silent)
+        valid_comp, codons_comp = ensure_valid_orf(complement_str, silent)
         
         # only accept valid windows and full ORFS
         if window_str is None or not valid_window or not valid_comp:
-            print(f"Invalid ORF for record {record.id}: complement valid: {valid_comp}, window valid: {valid_window}")
+            if not silent:
+                print(f"Invalid ORF for record {record.id}: complement valid: {valid_comp}, window valid: {valid_window}")
             continue
         else:
             # concatenate codons to full lists
@@ -154,3 +157,33 @@ def calculate_elongation_time(codons: list[str]) -> float:
 
     return np.sum(time_arr)
     
+
+def count_amino_acids(counts: dict, region: str) -> dict:
+    '''
+    Returns the provided dictionary updated with counts from the given region
+    
+    counts: a dictionary of amino acids and counts so far
+    region: segment of a sequence to be counted
+    '''
+    for aa in region:
+        if aa not in counts.keys():
+            continue
+        else:
+            counts[aa] += 1
+    return counts
+
+def run_elongation_time_analysis(record: SeqRecord, window_size, distance, cs_n):
+    
+    extraction = extract_window_and_complement(record, window_size, distance, cs_n)
+    
+    if extraction is None:
+        return 0.0
+    else:
+        window = extraction[0]
+        valid, codons = ensure_valid_orf(window)
+    
+    if valid:
+        return calculate_elongation_time(codons)
+    else:
+        print(f"Invalid window extraction for {record.id}")
+        return 0.0
