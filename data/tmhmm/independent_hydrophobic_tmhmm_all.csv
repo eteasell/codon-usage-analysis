@@ -1,4 +1,4 @@
-gene,length,sp,tmd,first_hydrophic_start,first_hydrophobic_end
+gene,length,sp,tmd,first_hydrophobic_start,first_hydrophobic_end
 YAL068C,120,True,False,1.0,25.0
 YAL063C,1322,True,False,1.0,24.0
 YAL058W,502,True,True,1.0,19.0
