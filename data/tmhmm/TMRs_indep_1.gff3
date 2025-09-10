@@ -1,0 +1,1982 @@
+##gff-version 3
+# YAL068C Length: 120
+# YAL068C Number of predicted TMRs: 0
+YAL068C	signal	1	25				
+YAL068C	outside	26	120				
+//
+# YAL063C Length: 1322
+# YAL063C Number of predicted TMRs: 0
+YAL063C	signal	1	24				
+YAL063C	outside	25	1322				
+//
+# YAL058W Length: 502
+# YAL058W Number of predicted TMRs: 1
+YAL058W	signal	1	19				
+YAL058W	outside	20	481				
+YAL058W	TMhelix	482	497				
+YAL058W	inside	498	502				
+//
+# YAL053W Length: 783
+# YAL053W Number of predicted TMRs: 9
+YAL053W	signal	1	24				
+YAL053W	outside	25	181				
+YAL053W	TMhelix	182	204				
+YAL053W	inside	205	211				
+YAL053W	TMhelix	212	232				
+YAL053W	outside	233	347				
+YAL053W	TMhelix	348	374				
+YAL053W	inside	375	398				
+YAL053W	TMhelix	399	420				
+YAL053W	outside	421	436				
+YAL053W	TMhelix	437	455				
+YAL053W	inside	456	492				
+YAL053W	TMhelix	493	513				
+YAL053W	outside	514	518				
+YAL053W	TMhelix	519	538				
+YAL053W	inside	539	547				
+YAL053W	TMhelix	548	566				
+YAL053W	outside	567	580				
+YAL053W	TMhelix	581	601				
+YAL053W	inside	602	783				
+//
+# YAL008W Length: 198
+# YAL008W Number of predicted TMRs: 3
+YAL008W	inside	1	105				
+YAL008W	TMhelix	106	121				
+YAL008W	outside	122	125				
+YAL008W	TMhelix	126	141				
+YAL008W	inside	142	182				
+YAL008W	TMhelix	183	194				
+YAL008W	outside	195	198				
+//
+# YAR002C-A Length: 219
+# YAR002C-A Number of predicted TMRs: 1
+YAR002C-A	signal	1	22				
+YAR002C-A	outside	23	187				
+YAR002C-A	TMhelix	188	206				
+YAR002C-A	inside	207	219				
+//
+# YAR020C Length: 55
+# YAR020C Number of predicted TMRs: 0
+YAR020C	signal	1	32				
+YAR020C	outside	33	55				
+//
+# YAR023C Length: 179
+# YAR023C Number of predicted TMRs: 2
+YAR023C	inside	1	3				
+YAR023C	TMhelix	4	20				
+YAR023C	outside	21	26				
+YAR023C	TMhelix	27	44				
+YAR023C	inside	45	179				
+//
+# YAR050W Length: 1537
+# YAR050W Number of predicted TMRs: 0
+YAR050W	signal	1	24				
+YAR050W	outside	25	1537				
+//
+# YAR066W Length: 203
+# YAR066W Number of predicted TMRs: 0
+YAR066W	signal	1	23				
+YAR066W	outside	24	203				
+//
+# YAR071W Length: 467
+# YAR071W Number of predicted TMRs: 0
+YAR071W	signal	1	17				
+YAR071W	outside	18	467				
+//
+# YBL020W Length: 574
+# YBL020W Number of predicted TMRs: 14
+YBL020W	inside	1	24				
+YBL020W	TMhelix	25	45				
+YBL020W	outside	46	51				
+YBL020W	TMhelix	52	69				
+YBL020W	inside	70	112				
+YBL020W	TMhelix	113	133				
+YBL020W	outside	134	149				
+YBL020W	TMhelix	150	163				
+YBL020W	inside	164	183				
+YBL020W	TMhelix	184	201				
+YBL020W	outside	202	219				
+YBL020W	TMhelix	220	242				
+YBL020W	inside	243	291				
+YBL020W	TMhelix	292	313				
+YBL020W	outside	314	318				
+YBL020W	TMhelix	319	340				
+YBL020W	inside	341	372				
+YBL020W	TMhelix	373	393				
+YBL020W	outside	394	409				
+YBL020W	TMhelix	410	430				
+YBL020W	inside	431	442				
+YBL020W	TMhelix	443	461				
+YBL020W	outside	462	467				
+YBL020W	TMhelix	468	490				
+YBL020W	inside	491	506				
+YBL020W	TMhelix	507	527				
+YBL020W	outside	528	533				
+YBL020W	TMhelix	534	553				
+YBL020W	inside	554	574				
+//
+# YBL017C Length: 1579
+# YBL017C Number of predicted TMRs: 1
+YBL017C	signal	1	21				
+YBL017C	outside	22	1394				
+YBL017C	TMhelix	1395	1415				
+YBL017C	inside	1416	1579				
+//
+# YBL008W-A Length: 79
+# YBL008W-A Number of predicted TMRs: 0
+YBL008W-A	inside	1	79				
+//
+# YBR013C Length: 129
+# YBR013C Number of predicted TMRs: 0
+YBR013C	signal	1	20				
+YBR013C	outside	21	129				
+//
+# YBR015C Length: 597
+# YBR015C Number of predicted TMRs: 0
+YBR015C	signal	1	29				
+YBR015C	outside	30	597				
+//
+# YBR036C Length: 410
+# YBR036C Number of predicted TMRs: 10
+YBR036C	inside	1	4				
+YBR036C	TMhelix	5	18				
+YBR036C	outside	19	54				
+YBR036C	TMhelix	55	75				
+YBR036C	inside	76	138				
+YBR036C	TMhelix	139	160				
+YBR036C	outside	161	165				
+YBR036C	TMhelix	166	180				
+YBR036C	inside	181	198				
+YBR036C	TMhelix	199	215				
+YBR036C	outside	216	243				
+YBR036C	TMhelix	244	264				
+YBR036C	inside	265	286				
+YBR036C	TMhelix	287	304				
+YBR036C	outside	305	324				
+YBR036C	TMhelix	325	345				
+YBR036C	inside	346	357				
+YBR036C	TMhelix	358	373				
+YBR036C	outside	374	382				
+YBR036C	TMhelix	383	403				
+YBR036C	inside	404	410				
+//
+# YBR067C Length: 210
+# YBR067C Number of predicted TMRs: 0
+YBR067C	signal	1	19				
+YBR067C	outside	20	210				
+//
+# YBR078W Length: 429
+# YBR078W Number of predicted TMRs: 0
+YBR078W	signal	1	19				
+YBR078W	outside	20	429				
+//
+# YBR092C Length: 467
+# YBR092C Number of predicted TMRs: 0
+YBR092C	signal	1	17				
+YBR092C	outside	18	467				
+//
+# YBR093C Length: 467
+# YBR093C Number of predicted TMRs: 0
+YBR093C	signal	1	17				
+YBR093C	outside	18	467				
+//
+# YBR139W Length: 508
+# YBR139W Number of predicted TMRs: 0
+YBR139W	signal	1	24				
+YBR139W	outside	25	508				
+//
+# YBR162C Length: 455
+# YBR162C Number of predicted TMRs: 0
+YBR162C	signal	1	23				
+YBR162C	outside	24	455				
+//
+# YBR168W Length: 413
+# YBR168W Number of predicted TMRs: 4
+YBR168W	inside	1	67				
+YBR168W	TMhelix	68	84				
+YBR168W	outside	85	103				
+YBR168W	TMhelix	104	124				
+YBR168W	inside	125	177				
+YBR168W	TMhelix	178	197				
+YBR168W	outside	198	204				
+YBR168W	TMhelix	205	214				
+YBR168W	inside	215	413				
+//
+# YBR187W Length: 280
+# YBR187W Number of predicted TMRs: 6
+YBR187W	signal	1	23				
+YBR187W	outside	24	41				
+YBR187W	TMhelix	42	62				
+YBR187W	inside	63	74				
+YBR187W	TMhelix	75	92				
+YBR187W	outside	93	106				
+YBR187W	TMhelix	107	118				
+YBR187W	inside	119	193				
+YBR187W	TMhelix	194	214				
+YBR187W	outside	215	222				
+YBR187W	TMhelix	223	243				
+YBR187W	inside	244	255				
+YBR187W	TMhelix	256	273				
+YBR187W	outside	274	280				
+//
+# YBR200W-A Length: 54
+# YBR200W-A Number of predicted TMRs: 0
+YBR200W-A	inside	1	54				
+//
+# YBR205W Length: 404
+# YBR205W Number of predicted TMRs: 1
+YBR205W	inside	1	25				
+YBR205W	TMhelix	26	41				
+YBR205W	outside	42	404				
+//
+# YBR210W Length: 142
+# YBR210W Number of predicted TMRs: 4
+YBR210W	outside	1	8				
+YBR210W	TMhelix	9	26				
+YBR210W	inside	27	49				
+YBR210W	TMhelix	50	67				
+YBR210W	outside	68	70				
+YBR210W	TMhelix	71	86				
+YBR210W	inside	87	111				
+YBR210W	TMhelix	112	130				
+YBR210W	outside	131	142				
+//
+# YBR229C Length: 954
+# YBR229C Number of predicted TMRs: 0
+YBR229C	signal	1	20				
+YBR229C	outside	21	954				
+//
+# YBR286W Length: 537
+# YBR286W Number of predicted TMRs: 0
+YBR286W	signal	1	21				
+YBR286W	outside	22	537				
+//
+# YBR293W Length: 474
+# YBR293W Number of predicted TMRs: 13
+YBR293W	outside	1	2				
+YBR293W	TMhelix	3	23				
+YBR293W	inside	24	32				
+YBR293W	TMhelix	33	51				
+YBR293W	outside	52	55				
+YBR293W	TMhelix	56	76				
+YBR293W	inside	77	89				
+YBR293W	TMhelix	90	114				
+YBR293W	outside	115	121				
+YBR293W	TMhelix	122	139				
+YBR293W	inside	140	167				
+YBR293W	TMhelix	168	187				
+YBR293W	outside	188	200				
+YBR293W	TMhelix	201	217				
+YBR293W	inside	218	238				
+YBR293W	TMhelix	239	260				
+YBR293W	outside	261	273				
+YBR293W	TMhelix	274	294				
+YBR293W	inside	295	303				
+YBR293W	TMhelix	304	323				
+YBR293W	outside	324	329				
+YBR293W	TMhelix	330	348				
+YBR293W	inside	349	368				
+YBR293W	TMhelix	369	389				
+YBR293W	outside	390	445				
+YBR293W	TMhelix	446	463				
+YBR293W	inside	464	474				
+//
+# YBR301W Length: 120
+# YBR301W Number of predicted TMRs: 0
+YBR301W	signal	1	25				
+YBR301W	outside	26	120				
+//
+# YBR302C Length: 379
+# YBR302C Number of predicted TMRs: 4
+YBR302C	inside	1	47				
+YBR302C	TMhelix	48	57				
+YBR302C	outside	58	72				
+YBR302C	TMhelix	73	90				
+YBR302C	inside	91	235				
+YBR302C	TMhelix	236	245				
+YBR302C	outside	246	261				
+YBR302C	TMhelix	262	272				
+YBR302C	inside	273	379				
+//
+# YCL049C Length: 312
+# YCL049C Number of predicted TMRs: 0
+YCL049C	signal	1	19				
+YCL049C	outside	20	312				
+//
+# YCL048W-A Length: 79
+# YCL048W-A Number of predicted TMRs: 0
+YCL048W-A	signal	1	18				
+YCL048W-A	outside	19	79				
+//
+# YCL048W Length: 463
+# YCL048W Number of predicted TMRs: 0
+YCL048W	signal	1	25				
+YCL048W	outside	26	463				
+//
+# YCL045C Length: 760
+# YCL045C Number of predicted TMRs: 1
+YCL045C	signal	1	24				
+YCL045C	outside	25	728				
+YCL045C	TMhelix	729	744				
+YCL045C	inside	745	760				
+//
+# YCL043C Length: 522
+# YCL043C Number of predicted TMRs: 0
+YCL043C	signal	1	22				
+YCL043C	outside	23	522				
+//
+# YCL027W Length: 512
+# YCL027W Number of predicted TMRs: 1
+YCL027W	outside	1	71				
+YCL027W	TMhelix	72	94				
+YCL027W	inside	95	512				
+//
+# YCL012C Length: 134
+# YCL012C Number of predicted TMRs: 1
+YCL012C	signal	1	12				
+YCL012C	outside	13	13				
+YCL012C	TMhelix	14	23				
+YCL012C	inside	24	134				
+//
+# YCR011C Length: 1049
+# YCR011C Number of predicted TMRs: 7
+YCR011C	signal	1	25				
+YCR011C	outside	26	324				
+YCR011C	TMhelix	325	345				
+YCR011C	inside	346	793				
+YCR011C	TMhelix	794	812				
+YCR011C	outside	813	830				
+YCR011C	TMhelix	831	848				
+YCR011C	inside	849	878				
+YCR011C	TMhelix	879	896				
+YCR011C	outside	897	906				
+YCR011C	TMhelix	907	927				
+YCR011C	inside	928	937				
+YCR011C	TMhelix	938	951				
+YCR011C	outside	952	1020				
+YCR011C	TMhelix	1021	1041				
+YCR011C	inside	1042	1049				
+//
+# YCR044C Length: 357
+# YCR044C Number of predicted TMRs: 7
+YCR044C	signal	1	21				
+YCR044C	outside	22	113				
+YCR044C	TMhelix	114	134				
+YCR044C	inside	135	155				
+YCR044C	TMhelix	156	176				
+YCR044C	outside	177	189				
+YCR044C	TMhelix	190	210				
+YCR044C	inside	211	212				
+YCR044C	TMhelix	213	233				
+YCR044C	outside	234	248				
+YCR044C	TMhelix	249	269				
+YCR044C	inside	270	293				
+YCR044C	TMhelix	294	314				
+YCR044C	outside	315	324				
+YCR044C	TMhelix	325	345				
+YCR044C	inside	346	357				
+//
+# YCR045C Length: 491
+# YCR045C Number of predicted TMRs: 0
+YCR045C	signal	1	17				
+YCR045C	outside	18	491				
+//
+# YCR069W Length: 318
+# YCR069W Number of predicted TMRs: 1
+YCR069W	signal	1	20				
+YCR069W	outside	21	285				
+YCR069W	TMhelix	286	301				
+YCR069W	inside	302	318				
+//
+# YCR089W Length: 1609
+# YCR089W Number of predicted TMRs: 0
+YCR089W	signal	1	22				
+YCR089W	outside	23	1609				
+//
+# YCR104W Length: 124
+# YCR104W Number of predicted TMRs: 0
+YCR104W	signal	1	20				
+YCR104W	outside	21	124				
+//
+# YDL248W Length: 383
+# YDL248W Number of predicted TMRs: 4
+YDL248W	inside	1	50				
+YDL248W	TMhelix	51	61				
+YDL248W	outside	62	72				
+YDL248W	TMhelix	73	90				
+YDL248W	inside	91	236				
+YDL248W	TMhelix	237	246				
+YDL248W	outside	247	260				
+YDL248W	TMhelix	261	272				
+YDL248W	inside	273	383				
+//
+# YDL237W Length: 390
+# YDL237W Number of predicted TMRs: 0
+YDL237W	signal	1	24				
+YDL237W	outside	25	390				
+//
+# YDL212W Length: 210
+# YDL212W Number of predicted TMRs: 4
+YDL212W	inside	1	6				
+YDL212W	TMhelix	7	27				
+YDL212W	outside	28	60				
+YDL212W	TMhelix	61	81				
+YDL212W	inside	82	91				
+YDL212W	TMhelix	92	112				
+YDL212W	outside	113	138				
+YDL212W	TMhelix	139	159				
+YDL212W	inside	160	210				
+//
+# YDL052C Length: 303
+# YDL052C Number of predicted TMRs: 2
+YDL052C	inside	1	12				
+YDL052C	TMhelix	13	22				
+YDL052C	outside	23	23				
+YDL052C	TMhelix	24	33				
+YDL052C	inside	34	303				
+//
+# YDL049C Length: 268
+# YDL049C Number of predicted TMRs: 0
+YDL049C	signal	1	20				
+YDL049C	outside	21	268				
+//
+# YDL046W Length: 173
+# YDL046W Number of predicted TMRs: 0
+YDL046W	signal	1	21				
+YDL046W	outside	22	173				
+//
+# YDL024C Length: 468
+# YDL024C Number of predicted TMRs: 0
+YDL024C	signal	1	20				
+YDL024C	outside	21	468				
+//
+# YDL018C Length: 225
+# YDL018C Number of predicted TMRs: 1
+YDL018C	signal	1	23				
+YDL018C	outside	24	195				
+YDL018C	TMhelix	196	213				
+YDL018C	inside	214	225				
+//
+# YDR055W Length: 444
+# YDR055W Number of predicted TMRs: 0
+YDR055W	signal	1	19				
+YDR055W	outside	20	444				
+//
+# YDR056C Length: 205
+# YDR056C Number of predicted TMRs: 1
+YDR056C	signal	1	17				
+YDR056C	outside	18	174				
+YDR056C	TMhelix	175	186				
+YDR056C	inside	187	205				
+//
+# YDR057W Length: 542
+# YDR057W Number of predicted TMRs: 0
+YDR057W	signal	1	21				
+YDR057W	outside	22	542				
+//
+# YDR077W Length: 338
+# YDR077W Number of predicted TMRs: 0
+YDR077W	signal	1	18				
+YDR077W	outside	19	338				
+//
+# YDR107C Length: 672
+# YDR107C Number of predicted TMRs: 9
+YDR107C	signal	1	18				
+YDR107C	outside	19	310				
+YDR107C	TMhelix	311	332				
+YDR107C	inside	333	375				
+YDR107C	TMhelix	376	397				
+YDR107C	outside	398	406				
+YDR107C	TMhelix	407	428				
+YDR107C	inside	429	442				
+YDR107C	TMhelix	443	464				
+YDR107C	outside	465	478				
+YDR107C	TMhelix	479	500				
+YDR107C	inside	501	530				
+YDR107C	TMhelix	531	552				
+YDR107C	outside	553	565				
+YDR107C	TMhelix	566	587				
+YDR107C	inside	588	601				
+YDR107C	TMhelix	602	623				
+YDR107C	outside	624	639				
+YDR107C	TMhelix	640	661				
+YDR107C	inside	662	672				
+//
+# YDR119W-A Length: 66
+# YDR119W-A Number of predicted TMRs: 1
+YDR119W-A	inside	1	39				
+YDR119W-A	TMhelix	40	60				
+YDR119W-A	outside	61	66				
+//
+# YDR144C Length: 596
+# YDR144C Number of predicted TMRs: 0
+YDR144C	signal	1	22				
+YDR144C	outside	23	596				
+//
+# YDR182W-A Length: 67
+# YDR182W-A Number of predicted TMRs: 0
+YDR182W-A	signal	1	49				
+YDR182W-A	outside	50	67				
+//
+# YDR221W Length: 702
+# YDR221W Number of predicted TMRs: 0
+YDR221W	signal	1	20				
+YDR221W	outside	21	702				
+//
+# YDR236C Length: 218
+# YDR236C Number of predicted TMRs: 1
+YDR236C	signal	1	10				
+YDR236C	outside	11	11				
+YDR236C	TMhelix	12	21				
+YDR236C	inside	22	218				
+//
+# YDR246W-A Length: 66
+# YDR246W-A Number of predicted TMRs: 0
+YDR246W-A	inside	1	66				
+//
+# YDR261C Length: 562
+# YDR261C Number of predicted TMRs: 0
+YDR261C	signal	1	22				
+YDR261C	outside	23	562				
+//
+# YDR262W Length: 272
+# YDR262W Number of predicted TMRs: 0
+YDR262W	signal	1	18				
+YDR262W	outside	19	272				
+//
+# YDR294C Length: 589
+# YDR294C Number of predicted TMRs: 1
+YDR294C	outside	1	55				
+YDR294C	TMhelix	56	65				
+YDR294C	inside	66	589				
+//
+# YDR302W Length: 219
+# YDR302W Number of predicted TMRs: 6
+YDR302W	inside	1	46				
+YDR302W	TMhelix	47	65				
+YDR302W	outside	66	73				
+YDR302W	TMhelix	74	88				
+YDR302W	inside	89	108				
+YDR302W	TMhelix	109	128				
+YDR302W	outside	129	139				
+YDR302W	TMhelix	140	155				
+YDR302W	inside	156	170				
+YDR302W	TMhelix	171	188				
+YDR302W	outside	189	198				
+YDR302W	TMhelix	199	215				
+YDR302W	inside	216	219				
+//
+# YDR304C Length: 225
+# YDR304C Number of predicted TMRs: 0
+YDR304C	signal	1	22				
+YDR304C	outside	23	225				
+//
+# YDR331W Length: 411
+# YDR331W Number of predicted TMRs: 1
+YDR331W	signal	1	22				
+YDR331W	outside	23	381				
+YDR331W	TMhelix	382	397				
+YDR331W	inside	398	411				
+//
+# YDR349C Length: 596
+# YDR349C Number of predicted TMRs: 0
+YDR349C	signal	1	22				
+YDR349C	outside	23	596				
+//
+# YDR415C Length: 374
+# YDR415C Number of predicted TMRs: 0
+YDR415C	signal	1	18				
+YDR415C	outside	19	374				
+//
+# YDR420W Length: 1802
+# YDR420W Number of predicted TMRs: 1
+YDR420W	signal	1	21				
+YDR420W	outside	22	1485				
+YDR420W	TMhelix	1486	1506				
+YDR420W	inside	1507	1802				
+//
+# YDR483W Length: 442
+# YDR483W Number of predicted TMRs: 1
+YDR483W	inside	1	8				
+YDR483W	TMhelix	9	26				
+YDR483W	outside	27	442				
+//
+# YDR518W Length: 517
+# YDR518W Number of predicted TMRs: 0
+YDR518W	signal	1	23				
+YDR518W	outside	24	517				
+//
+# YDR519W Length: 135
+# YDR519W Number of predicted TMRs: 0
+YDR519W	signal	1	17				
+YDR519W	outside	18	135				
+//
+# YDR524C-B Length: 66
+# YDR524C-B Number of predicted TMRs: 0
+YDR524C-B	signal	1	18				
+YDR524C-B	outside	19	66				
+//
+# YDR534C Length: 528
+# YDR534C Number of predicted TMRs: 0
+YDR534C	signal	1	18				
+YDR534C	outside	19	528				
+//
+# YDR536W Length: 569
+# YDR536W Number of predicted TMRs: 12
+YDR536W	inside	1	29				
+YDR536W	TMhelix	30	53				
+YDR536W	outside	54	79				
+YDR536W	TMhelix	80	101				
+YDR536W	inside	102	107				
+YDR536W	TMhelix	108	128				
+YDR536W	outside	129	134				
+YDR536W	TMhelix	135	155				
+YDR536W	inside	156	176				
+YDR536W	TMhelix	177	193				
+YDR536W	outside	194	203				
+YDR536W	TMhelix	204	221				
+YDR536W	inside	222	291				
+YDR536W	TMhelix	292	312				
+YDR536W	outside	313	329				
+YDR536W	TMhelix	330	351				
+YDR536W	inside	352	358				
+YDR536W	TMhelix	359	379				
+YDR536W	outside	380	387				
+YDR536W	TMhelix	388	408				
+YDR536W	inside	409	429				
+YDR536W	TMhelix	430	447				
+YDR536W	outside	448	451				
+YDR536W	TMhelix	452	472				
+YDR536W	inside	473	569				
+//
+# YDR542W Length: 120
+# YDR542W Number of predicted TMRs: 0
+YDR542W	signal	1	25				
+YDR542W	outside	26	120				
+//
+# YEL060C Length: 635
+# YEL060C Number of predicted TMRs: 0
+YEL060C	signal	1	19				
+YEL060C	outside	20	635				
+//
+# YEL049W Length: 120
+# YEL049W Number of predicted TMRs: 0
+YEL049W	signal	1	25				
+YEL049W	outside	26	120				
+//
+# YEL043W Length: 956
+# YEL043W Number of predicted TMRs: 0
+YEL043W	inside	1	956				
+//
+# YEL040W Length: 467
+# YEL040W Number of predicted TMRs: 0
+YEL040W	signal	1	23				
+YEL040W	outside	24	467				
+//
+# YEL031W Length: 1215
+# YEL031W Number of predicted TMRs: 12
+YEL031W	inside	1	28				
+YEL031W	TMhelix	29	44				
+YEL031W	outside	45	56				
+YEL031W	TMhelix	57	74				
+YEL031W	inside	75	196				
+YEL031W	TMhelix	197	214				
+YEL031W	outside	215	216				
+YEL031W	TMhelix	217	237				
+YEL031W	inside	238	396				
+YEL031W	TMhelix	397	417				
+YEL031W	outside	418	434				
+YEL031W	TMhelix	435	455				
+YEL031W	inside	456	990				
+YEL031W	TMhelix	991	1011				
+YEL031W	outside	1012	1020				
+YEL031W	TMhelix	1021	1038				
+YEL031W	inside	1039	1055				
+YEL031W	TMhelix	1056	1076				
+YEL031W	outside	1077	1099				
+YEL031W	TMhelix	1100	1121				
+YEL031W	inside	1122	1134				
+YEL031W	TMhelix	1135	1155				
+YEL031W	outside	1156	1172				
+YEL031W	TMhelix	1173	1193				
+YEL031W	inside	1194	1215				
+//
+# YEL002C Length: 430
+# YEL002C Number of predicted TMRs: 1
+YEL002C	signal	1	20				
+YEL002C	outside	21	391				
+YEL002C	TMhelix	392	414				
+YEL002C	inside	415	430				
+//
+# YEL001C Length: 225
+# YEL001C Number of predicted TMRs: 1
+YEL001C	signal	1	21				
+YEL001C	outside	22	175				
+YEL001C	TMhelix	176	196				
+YEL001C	inside	197	225				
+//
+# YER011W Length: 254
+# YER011W Number of predicted TMRs: 0
+YER011W	signal	1	18				
+YER011W	outside	19	254				
+//
+# YER076C Length: 302
+# YER076C Number of predicted TMRs: 0
+YER076C	signal	1	23				
+YER076C	outside	24	302				
+//
+# YER093C-A Length: 137
+# YER093C-A Number of predicted TMRs: 0
+YER093C-A	inside	1	137				
+//
+# YER150W Length: 148
+# YER150W Number of predicted TMRs: 0
+YER150W	signal	1	19				
+YER150W	outside	20	148				
+//
+# YFL051C Length: 160
+# YFL051C Number of predicted TMRs: 0
+YFL051C	signal	1	23				
+YFL051C	outside	24	160				
+//
+# YFL048C Length: 445
+# YFL048C Number of predicted TMRs: 1
+YFL048C	signal	1	28				
+YFL048C	outside	29	413				
+YFL048C	TMhelix	414	433				
+YFL048C	inside	434	445				
+//
+# YFL041W Length: 622
+# YFL041W Number of predicted TMRs: 1
+YFL041W	signal	1	18				
+YFL041W	outside	19	571				
+YFL041W	TMhelix	572	594				
+YFL041W	inside	595	622				
+//
+# YFL040W Length: 540
+# YFL040W Number of predicted TMRs: 12
+YFL040W	inside	1	29				
+YFL040W	TMhelix	30	50				
+YFL040W	outside	51	67				
+YFL040W	TMhelix	68	88				
+YFL040W	inside	89	99				
+YFL040W	TMhelix	100	115				
+YFL040W	outside	116	119				
+YFL040W	TMhelix	120	139				
+YFL040W	inside	140	160				
+YFL040W	TMhelix	161	177				
+YFL040W	outside	178	187				
+YFL040W	TMhelix	188	207				
+YFL040W	inside	208	279				
+YFL040W	TMhelix	280	298				
+YFL040W	outside	299	313				
+YFL040W	TMhelix	314	331				
+YFL040W	inside	332	341				
+YFL040W	TMhelix	342	362				
+YFL040W	outside	363	388				
+YFL040W	TMhelix	389	409				
+YFL040W	inside	410	428				
+YFL040W	TMhelix	429	449				
+YFL040W	outside	450	453				
+YFL040W	TMhelix	454	474				
+YFL040W	inside	475	540				
+//
+# YFL026W Length: 431
+# YFL026W Number of predicted TMRs: 7
+YFL026W	outside	1	47				
+YFL026W	TMhelix	48	71				
+YFL026W	inside	72	77				
+YFL026W	TMhelix	78	105				
+YFL026W	outside	106	128				
+YFL026W	TMhelix	129	150				
+YFL026W	inside	151	161				
+YFL026W	TMhelix	162	185				
+YFL026W	outside	186	205				
+YFL026W	TMhelix	206	229				
+YFL026W	inside	230	243				
+YFL026W	TMhelix	244	265				
+YFL026W	outside	266	276				
+YFL026W	TMhelix	277	298				
+YFL026W	inside	299	431				
+//
+# YFL020C Length: 122
+# YFL020C Number of predicted TMRs: 0
+YFL020C	signal	1	20				
+YFL020C	outside	21	122				
+//
+# YFR041C Length: 295
+# YFR041C Number of predicted TMRs: 1
+YFR041C	signal	1	20				
+YFR041C	outside	21	131				
+YFR041C	TMhelix	132	152				
+YFR041C	inside	153	295				
+//
+# YGL261C Length: 120
+# YGL261C Number of predicted TMRs: 0
+YGL261C	signal	1	25				
+YGL261C	outside	26	120				
+//
+# YGL259W Length: 165
+# YGL259W Number of predicted TMRs: 0
+YGL259W	signal	1	21				
+YGL259W	outside	22	165				
+//
+# YGL203C Length: 729
+# YGL203C Number of predicted TMRs: 1
+YGL203C	signal	1	22				
+YGL203C	outside	23	618				
+YGL203C	TMhelix	619	637				
+YGL203C	inside	638	729				
+//
+# YGL200C Length: 203
+# YGL200C Number of predicted TMRs: 1
+YGL200C	signal	1	20				
+YGL200C	outside	21	172				
+YGL200C	TMhelix	173	193				
+YGL200C	inside	194	203				
+//
+# YGL139W Length: 802
+# YGL139W Number of predicted TMRs: 9
+YGL139W	signal	1	28				
+YGL139W	outside	29	173				
+YGL139W	TMhelix	174	193				
+YGL139W	inside	194	200				
+YGL139W	TMhelix	201	221				
+YGL139W	outside	222	327				
+YGL139W	TMhelix	328	346				
+YGL139W	inside	347	374				
+YGL139W	TMhelix	375	395				
+YGL139W	outside	396	413				
+YGL139W	TMhelix	414	429				
+YGL139W	inside	430	467				
+YGL139W	TMhelix	468	488				
+YGL139W	outside	489	493				
+YGL139W	TMhelix	494	512				
+YGL139W	inside	513	522				
+YGL139W	TMhelix	523	541				
+YGL139W	outside	542	558				
+YGL139W	TMhelix	559	575				
+YGL139W	inside	576	802				
+//
+# YGL089C Length: 120
+# YGL089C Number of predicted TMRs: 0
+YGL089C	signal	1	19				
+YGL089C	outside	20	120				
+//
+# YGL054C Length: 138
+# YGL054C Number of predicted TMRs: 4
+YGL054C	outside	1	3				
+YGL054C	TMhelix	4	24				
+YGL054C	inside	25	46				
+YGL054C	TMhelix	47	64				
+YGL054C	outside	65	67				
+YGL054C	TMhelix	68	83				
+YGL054C	inside	84	108				
+YGL054C	TMhelix	109	128				
+YGL054C	outside	129	138				
+//
+# YGL032C Length: 87
+# YGL032C Number of predicted TMRs: 0
+YGL032C	signal	1	18				
+YGL032C	outside	19	87				
+//
+# YGL028C Length: 542
+# YGL028C Number of predicted TMRs: 0
+YGL028C	signal	1	27				
+YGL028C	outside	28	542				
+//
+# YGL027C Length: 833
+# YGL027C Number of predicted TMRs: 0
+YGL027C	signal	1	24				
+YGL027C	outside	25	833				
+//
+# YGL002W Length: 216
+# YGL002W Number of predicted TMRs: 1
+YGL002W	signal	1	19				
+YGL002W	outside	20	184				
+YGL002W	TMhelix	185	203				
+YGL002W	inside	204	216				
+//
+# YGR014W Length: 1306
+# YGR014W Number of predicted TMRs: 1
+YGR014W	signal	1	21				
+YGR014W	outside	22	1187				
+YGR014W	TMhelix	1188	1208				
+YGR014W	inside	1209	1306				
+//
+# YGR023W Length: 551
+# YGR023W Number of predicted TMRs: 1
+YGR023W	signal	1	35				
+YGR023W	outside	36	361				
+YGR023W	TMhelix	362	382				
+YGR023W	inside	383	551				
+//
+# YGR106C Length: 265
+# YGR106C Number of predicted TMRs: 1
+YGR106C	signal	1	24				
+YGR106C	outside	25	227				
+YGR106C	TMhelix	228	246				
+YGR106C	inside	247	265				
+//
+# YGR146C-A Length: 53
+# YGR146C-A Number of predicted TMRs: 0
+YGR146C-A	inside	1	53				
+//
+# YGR189C Length: 507
+# YGR189C Number of predicted TMRs: 0
+YGR189C	signal	1	22				
+YGR189C	outside	23	507				
+//
+# YGR279C Length: 386
+# YGR279C Number of predicted TMRs: 0
+YGR279C	signal	1	30				
+YGR279C	outside	31	386				
+//
+# YGR282C Length: 313
+# YGR282C Number of predicted TMRs: 0
+YGR282C	signal	1	23				
+YGR282C	outside	24	313				
+//
+# YGR294W Length: 120
+# YGR294W Number of predicted TMRs: 0
+YGR294W	signal	1	25				
+YGR294W	outside	26	120				
+//
+# YHL048W Length: 381
+# YHL048W Number of predicted TMRs: 4
+YHL048W	inside	1	47				
+YHL048W	TMhelix	48	63				
+YHL048W	outside	64	73				
+YHL048W	TMhelix	74	90				
+YHL048W	inside	91	237				
+YHL048W	TMhelix	238	249				
+YHL048W	outside	250	260				
+YHL048W	TMhelix	261	271				
+YHL048W	inside	272	381				
+//
+# YHL046C Length: 120
+# YHL046C Number of predicted TMRs: 0
+YHL046C	signal	1	25				
+YHL046C	outside	26	120				
+//
+# YHL042W Length: 150
+# YHL042W Number of predicted TMRs: 0
+YHL042W	signal	1	44				
+YHL042W	outside	45	150				
+//
+# YHL028W Length: 605
+# YHL028W Number of predicted TMRs: 1
+YHL028W	signal	1	26				
+YHL028W	outside	27	412				
+YHL028W	TMhelix	413	435				
+YHL028W	inside	436	605				
+//
+# YHL017W Length: 532
+# YHL017W Number of predicted TMRs: 7
+YHL017W	signal	1	20				
+YHL017W	outside	21	191				
+YHL017W	TMhelix	192	213				
+YHL017W	inside	214	225				
+YHL017W	TMhelix	226	247				
+YHL017W	outside	248	266				
+YHL017W	TMhelix	267	290				
+YHL017W	inside	291	301				
+YHL017W	TMhelix	302	318				
+YHL017W	outside	319	330				
+YHL017W	TMhelix	331	352				
+YHL017W	inside	353	375				
+YHL017W	TMhelix	376	397				
+YHL017W	outside	398	419				
+YHL017W	TMhelix	420	437				
+YHL017W	inside	438	532				
+//
+# YHR057C Length: 205
+# YHR057C Number of predicted TMRs: 0
+YHR057C	signal	1	20				
+YHR057C	outside	21	205				
+//
+# YHR078W Length: 552
+# YHR078W Number of predicted TMRs: 9
+YHR078W	outside	1	2				
+YHR078W	TMhelix	3	18				
+YHR078W	inside	19	83				
+YHR078W	TMhelix	84	106				
+YHR078W	outside	107	119				
+YHR078W	TMhelix	120	140				
+YHR078W	inside	141	159				
+YHR078W	TMhelix	160	178				
+YHR078W	outside	179	192				
+YHR078W	TMhelix	193	210				
+YHR078W	inside	211	319				
+YHR078W	TMhelix	320	338				
+YHR078W	outside	339	392				
+YHR078W	TMhelix	393	413				
+YHR078W	inside	414	473				
+YHR078W	TMhelix	474	491				
+YHR078W	outside	492	521				
+YHR078W	TMhelix	522	540				
+YHR078W	inside	541	552				
+//
+# YHR079C Length: 1115
+# YHR079C Number of predicted TMRs: 1
+YHR079C	signal	1	24				
+YHR079C	outside	25	533				
+YHR079C	TMhelix	534	555				
+YHR079C	inside	556	1115				
+//
+# YHR101C Length: 335
+# YHR101C Number of predicted TMRs: 1
+YHR101C	signal	1	19				
+YHR101C	outside	20	280				
+YHR101C	TMhelix	281	291				
+YHR101C	inside	292	335				
+//
+# YHR110W Length: 212
+# YHR110W Number of predicted TMRs: 1
+YHR110W	signal	1	21				
+YHR110W	outside	22	179				
+YHR110W	TMhelix	180	199				
+YHR110W	inside	200	212				
+//
+# YHR126C Length: 159
+# YHR126C Number of predicted TMRs: 0
+YHR126C	signal	1	20				
+YHR126C	outside	21	159				
+//
+# YHR132C Length: 430
+# YHR132C Number of predicted TMRs: 0
+YHR132C	signal	1	24				
+YHR132C	outside	25	430				
+//
+# YHR139C Length: 326
+# YHR139C Number of predicted TMRs: 0
+YHR139C	signal	1	24				
+YHR139C	outside	25	326				
+//
+# YHR143W Length: 325
+# YHR143W Number of predicted TMRs: 0
+YHR143W	signal	1	21				
+YHR143W	outside	22	325				
+//
+# YHR151C Length: 526
+# YHR151C Number of predicted TMRs: 1
+YHR151C	signal	1	20				
+YHR151C	outside	21	476				
+YHR151C	TMhelix	477	497				
+YHR151C	inside	498	526				
+//
+# YHR188C Length: 610
+# YHR188C Number of predicted TMRs: 1
+YHR188C	signal	1	19				
+YHR188C	outside	20	551				
+YHR188C	TMhelix	552	572				
+YHR188C	inside	573	610				
+//
+# YHR195W Length: 321
+# YHR195W Number of predicted TMRs: 0
+YHR195W	inside	1	321				
+//
+# YHR202W Length: 602
+# YHR202W Number of predicted TMRs: 0
+YHR202W	signal	1	18				
+YHR202W	outside	19	602				
+//
+# YHR204W Length: 796
+# YHR204W Number of predicted TMRs: 0
+YHR204W	signal	1	20				
+YHR204W	outside	21	796				
+//
+# YHR215W Length: 467
+# YHR215W Number of predicted TMRs: 0
+YHR215W	signal	1	17				
+YHR215W	outside	18	467				
+//
+# YIL176C Length: 120
+# YIL176C Number of predicted TMRs: 0
+YIL176C	signal	1	25				
+YIL176C	outside	26	120				
+//
+# YIL173W Length: 1549
+# YIL173W Number of predicted TMRs: 1
+YIL173W	signal	1	21				
+YIL173W	outside	22	1370				
+YIL173W	TMhelix	1371	1391				
+YIL173W	inside	1392	1549				
+//
+# YIL169C Length: 995
+# YIL169C Number of predicted TMRs: 0
+YIL169C	signal	1	23				
+YIL169C	outside	24	995				
+//
+# YIL162W Length: 532
+# YIL162W Number of predicted TMRs: 0
+YIL162W	signal	1	19				
+YIL162W	outside	20	532				
+//
+# YIL140W Length: 823
+# YIL140W Number of predicted TMRs: 1
+YIL140W	signal	1	22				
+YIL140W	outside	23	506				
+YIL140W	TMhelix	507	527				
+YIL140W	inside	528	823				
+//
+# YIL123W Length: 476
+# YIL123W Number of predicted TMRs: 0
+YIL123W	signal	1	35				
+YIL123W	outside	36	476				
+//
+# YIL090W Length: 491
+# YIL090W Number of predicted TMRs: 10
+YIL090W	inside	1	13				
+YIL090W	TMhelix	14	32				
+YIL090W	outside	33	40				
+YIL090W	TMhelix	41	57				
+YIL090W	inside	58	74				
+YIL090W	TMhelix	75	95				
+YIL090W	outside	96	151				
+YIL090W	TMhelix	152	170				
+YIL090W	inside	171	184				
+YIL090W	TMhelix	185	205				
+YIL090W	outside	206	218				
+YIL090W	TMhelix	219	239				
+YIL090W	inside	240	244				
+YIL090W	TMhelix	245	263				
+YIL090W	outside	264	378				
+YIL090W	TMhelix	379	394				
+YIL090W	inside	395	416				
+YIL090W	TMhelix	417	437				
+YIL090W	outside	438	466				
+YIL090W	TMhelix	467	487				
+YIL090W	inside	488	491				
+//
+# YIL015W Length: 587
+# YIL015W Number of predicted TMRs: 0
+YIL015W	signal	1	24				
+YIL015W	outside	25	587				
+//
+# YIL014W Length: 630
+# YIL014W Number of predicted TMRs: 0
+YIL014W	signal	1	31				
+YIL014W	outside	32	630				
+//
+# YIL011W Length: 269
+# YIL011W Number of predicted TMRs: 0
+YIL011W	signal	1	22				
+YIL011W	outside	23	269				
+//
+# YIL005W Length: 701
+# YIL005W Number of predicted TMRs: 1
+YIL005W	signal	1	25				
+YIL005W	outside	26	651				
+YIL005W	TMhelix	652	672				
+YIL005W	inside	673	701				
+//
+# YIR019C Length: 1367
+# YIR019C Number of predicted TMRs: 0
+YIR019C	signal	1	29				
+YIR019C	outside	30	1367				
+//
+# YIR022W Length: 167
+# YIR022W Number of predicted TMRs: 2
+YIR022W	inside	1	9				
+YIR022W	TMhelix	10	30				
+YIR022W	outside	31	149				
+YIR022W	TMhelix	150	164				
+YIR022W	inside	165	167				
+//
+# YIR039C Length: 537
+# YIR039C Number of predicted TMRs: 0
+YIR039C	signal	1	21				
+YIR039C	outside	22	537				
+//
+# YIR041W Length: 124
+# YIR041W Number of predicted TMRs: 0
+YIR041W	signal	1	20				
+YIR041W	outside	21	124				
+//
+# YJL223C Length: 120
+# YJL223C Number of predicted TMRs: 0
+YJL223C	signal	1	25				
+YJL223C	outside	26	120				
+//
+# YJL222W Length: 1549
+# YJL222W Number of predicted TMRs: 1
+YJL222W	signal	1	21				
+YJL222W	outside	22	1370				
+YJL222W	TMhelix	1371	1391				
+YJL222W	inside	1392	1549				
+//
+# YJL193W Length: 402
+# YJL193W Number of predicted TMRs: 10
+YJL193W	inside	1	12				
+YJL193W	TMhelix	13	29				
+YJL193W	outside	30	43				
+YJL193W	TMhelix	44	65				
+YJL193W	inside	66	110				
+YJL193W	TMhelix	111	129				
+YJL193W	outside	130	139				
+YJL193W	TMhelix	140	155				
+YJL193W	inside	156	167				
+YJL193W	TMhelix	168	186				
+YJL193W	outside	187	203				
+YJL193W	TMhelix	204	221				
+YJL193W	inside	222	272				
+YJL193W	TMhelix	273	292				
+YJL193W	outside	293	313				
+YJL193W	TMhelix	314	334				
+YJL193W	inside	335	345				
+YJL193W	TMhelix	346	364				
+YJL193W	outside	365	369				
+YJL193W	TMhelix	370	387				
+YJL193W	inside	388	402				
+//
+# YJL192C Length: 234
+# YJL192C Number of predicted TMRs: 1
+YJL192C	signal	1	18				
+YJL192C	outside	19	188				
+YJL192C	TMhelix	189	209				
+YJL192C	inside	210	234				
+//
+# YJL178C Length: 271
+# YJL178C Number of predicted TMRs: 1
+YJL178C	signal	1	19				
+YJL178C	outside	20	198				
+YJL178C	TMhelix	199	221				
+YJL178C	inside	222	271				
+//
+# YJL174W Length: 276
+# YJL174W Number of predicted TMRs: 0
+YJL174W	signal	1	21				
+YJL174W	outside	22	276				
+//
+# YJL171C Length: 396
+# YJL171C Number of predicted TMRs: 0
+YJL171C	signal	1	19				
+YJL171C	outside	20	396				
+//
+# YJL159W Length: 413
+# YJL159W Number of predicted TMRs: 0
+YJL159W	signal	1	18				
+YJL159W	outside	19	413				
+//
+# YJL158C Length: 227
+# YJL158C Number of predicted TMRs: 0
+YJL158C	signal	1	21				
+YJL158C	outside	22	227				
+//
+# YJL132W Length: 750
+# YJL132W Number of predicted TMRs: 0
+YJL132W	signal	1	25				
+YJL132W	outside	26	750				
+//
+# YJL129C Length: 1235
+# YJL129C Number of predicted TMRs: 8
+YJL129C	inside	1	51				
+YJL129C	TMhelix	52	72				
+YJL129C	outside	73	106				
+YJL129C	TMhelix	107	128				
+YJL129C	inside	129	777				
+YJL129C	TMhelix	778	800				
+YJL129C	outside	801	848				
+YJL129C	TMhelix	849	874				
+YJL129C	inside	875	908				
+YJL129C	TMhelix	909	929				
+YJL129C	outside	930	973				
+YJL129C	TMhelix	974	989				
+YJL129C	inside	990	1077				
+YJL129C	TMhelix	1078	1096				
+YJL129C	outside	1097	1145				
+YJL129C	TMhelix	1146	1155				
+YJL129C	inside	1156	1235				
+//
+# YJL118W Length: 219
+# YJL118W Number of predicted TMRs: 0
+YJL118W	inside	1	219				
+//
+# YJL079C Length: 299
+# YJL079C Number of predicted TMRs: 0
+YJL079C	signal	1	19				
+YJL079C	outside	20	299				
+//
+# YJL078C Length: 881
+# YJL078C Number of predicted TMRs: 0
+YJL078C	signal	1	18				
+YJL078C	outside	19	881				
+//
+# YJL073W Length: 645
+# YJL073W Number of predicted TMRs: 0
+YJL073W	inside	1	645				
+//
+# YJL052C-A Length: 39
+# YJL052C-A Number of predicted TMRs: 0
+YJL052C-A	signal	1	38				
+YJL052C-A	outside	39	39				
+//
+# YJL037W Length: 224
+# YJL037W Number of predicted TMRs: 0
+YJL037W	signal	1	26				
+YJL037W	outside	27	224				
+//
+# YJL002C Length: 476
+# YJL002C Number of predicted TMRs: 1
+YJL002C	signal	1	22				
+YJL002C	outside	23	449				
+YJL002C	TMhelix	450	469				
+YJL002C	inside	470	476				
+//
+# YJR004C Length: 650
+# YJR004C Number of predicted TMRs: 0
+YJR004C	signal	1	19				
+YJR004C	outside	20	650				
+//
+# YJR073C Length: 206
+# YJR073C Number of predicted TMRs: 6
+YJR073C	inside	1	22				
+YJR073C	TMhelix	23	32				
+YJR073C	outside	33	33				
+YJR073C	TMhelix	34	43				
+YJR073C	inside	44	60				
+YJR073C	TMhelix	61	76				
+YJR073C	outside	77	99				
+YJR073C	TMhelix	100	117				
+YJR073C	inside	118	150				
+YJR073C	TMhelix	151	163				
+YJR073C	outside	164	170				
+YJR073C	TMhelix	171	180				
+YJR073C	inside	181	206				
+//
+# YJR075W Length: 396
+# YJR075W Number of predicted TMRs: 1
+YJR075W	inside	1	13				
+YJR075W	TMhelix	14	29				
+YJR075W	outside	30	396				
+//
+# YJR118C Length: 203
+# YJR118C Number of predicted TMRs: 4
+YJR118C	inside	1	11				
+YJR118C	TMhelix	12	26				
+YJR118C	outside	27	56				
+YJR118C	TMhelix	57	75				
+YJR118C	inside	76	84				
+YJR118C	TMhelix	85	105				
+YJR118C	outside	106	114				
+YJR118C	TMhelix	115	130				
+YJR118C	inside	131	203				
+//
+# YJR150C Length: 298
+# YJR150C Number of predicted TMRs: 0
+YJR150C	signal	1	19				
+YJR150C	outside	20	298				
+//
+# YJR151C Length: 1161
+# YJR151C Number of predicted TMRs: 0
+YJR151C	signal	1	19				
+YJR151C	outside	20	1161				
+//
+# YJR153W Length: 361
+# YJR153W Number of predicted TMRs: 0
+YJR153W	signal	1	24				
+YJR153W	outside	25	361				
+//
+# YKL224C Length: 123
+# YKL224C Number of predicted TMRs: 0
+YKL224C	signal	1	20				
+YKL224C	outside	21	123				
+//
+# YKL220C Length: 711
+# YKL220C Number of predicted TMRs: 7
+YKL220C	signal	1	20				
+YKL220C	outside	21	162				
+YKL220C	TMhelix	163	187				
+YKL220C	inside	188	235				
+YKL220C	TMhelix	236	256				
+YKL220C	outside	257	280				
+YKL220C	TMhelix	281	296				
+YKL220C	inside	297	314				
+YKL220C	TMhelix	315	335				
+YKL220C	outside	336	353				
+YKL220C	TMhelix	354	371				
+YKL220C	inside	372	380				
+YKL220C	TMhelix	381	398				
+YKL220C	outside	399	405				
+YKL220C	TMhelix	406	426				
+YKL220C	inside	427	711				
+//
+# YKL178C Length: 470
+# YKL178C Number of predicted TMRs: 7
+YKL178C	outside	1	2				
+YKL178C	TMhelix	3	23				
+YKL178C	inside	24	33				
+YKL178C	TMhelix	34	54				
+YKL178C	outside	55	74				
+YKL178C	TMhelix	75	92				
+YKL178C	inside	93	112				
+YKL178C	TMhelix	113	133				
+YKL178C	outside	134	158				
+YKL178C	TMhelix	159	181				
+YKL178C	inside	182	208				
+YKL178C	TMhelix	209	229				
+YKL178C	outside	230	261				
+YKL178C	TMhelix	262	281				
+YKL178C	inside	282	470				
+//
+# YKL164C Length: 341
+# YKL164C Number of predicted TMRs: 0
+YKL164C	signal	1	18				
+YKL164C	outside	19	341				
+//
+# YKL163W Length: 325
+# YKL163W Number of predicted TMRs: 0
+YKL163W	signal	1	18				
+YKL163W	outside	19	325				
+//
+# YKL096W-A Length: 92
+# YKL096W-A Number of predicted TMRs: 0
+YKL096W-A	signal	1	20				
+YKL096W-A	outside	21	92				
+//
+# YKL096W Length: 239
+# YKL096W Number of predicted TMRs: 0
+YKL096W	signal	1	20				
+YKL096W	outside	21	239				
+//
+# YKL077W Length: 392
+# YKL077W Number of predicted TMRs: 1
+YKL077W	signal	1	22				
+YKL077W	outside	23	317				
+YKL077W	TMhelix	318	338				
+YKL077W	inside	339	392				
+//
+# YKL073W Length: 881
+# YKL073W Number of predicted TMRs: 0
+YKL073W	signal	1	20				
+YKL073W	outside	21	881				
+//
+# YKL046C Length: 449
+# YKL046C Number of predicted TMRs: 1
+YKL046C	signal	1	21				
+YKL046C	outside	22	428				
+YKL046C	TMhelix	429	448				
+YKL046C	inside	449	449				
+//
+# YKL039W Length: 523
+# YKL039W Number of predicted TMRs: 7
+YKL039W	signal	1	26				
+YKL039W	outside	27	195				
+YKL039W	TMhelix	196	217				
+YKL039W	inside	218	229				
+YKL039W	TMhelix	230	249				
+YKL039W	outside	250	269				
+YKL039W	TMhelix	270	293				
+YKL039W	inside	294	304				
+YKL039W	TMhelix	305	321				
+YKL039W	outside	322	333				
+YKL039W	TMhelix	334	354				
+YKL039W	inside	355	378				
+YKL039W	TMhelix	379	400				
+YKL039W	outside	401	422				
+YKL039W	TMhelix	423	440				
+YKL039W	inside	441	523				
+//
+# YKR005C Length: 525
+# YKR005C Number of predicted TMRs: 1
+YKR005C	signal	1	21				
+YKR005C	outside	22	448				
+YKR005C	TMhelix	449	458				
+YKR005C	inside	459	525				
+//
+# YKR013W Length: 329
+# YKR013W Number of predicted TMRs: 0
+YKR013W	signal	1	18				
+YKR013W	outside	19	329				
+//
+# YKR042W Length: 365
+# YKR042W Number of predicted TMRs: 0
+YKR042W	signal	1	33				
+YKR042W	outside	34	365				
+//
+# YKR061W Length: 425
+# YKR061W Number of predicted TMRs: 0
+YKR061W	signal	1	31				
+YKR061W	outside	32	425				
+//
+# YKR102W Length: 1169
+# YKR102W Number of predicted TMRs: 0
+YKR102W	signal	1	24				
+YKR102W	outside	25	1169				
+//
+# YLL064C Length: 120
+# YLL064C Number of predicted TMRs: 0
+YLL064C	signal	1	25				
+YLL064C	outside	26	120				
+//
+# YLL052C Length: 149
+# YLL052C Number of predicted TMRs: 2
+YLL052C	inside	1	47				
+YLL052C	TMhelix	48	68				
+YLL052C	outside	69	89				
+YLL052C	TMhelix	90	110				
+YLL052C	inside	111	149				
+//
+# YLL051C Length: 712
+# YLL051C Number of predicted TMRs: 7
+YLL051C	signal	1	17				
+YLL051C	outside	18	168				
+YLL051C	TMhelix	169	190				
+YLL051C	inside	191	242				
+YLL051C	TMhelix	243	263				
+YLL051C	outside	264	287				
+YLL051C	TMhelix	288	308				
+YLL051C	inside	309	325				
+YLL051C	TMhelix	326	343				
+YLL051C	outside	344	362				
+YLL051C	TMhelix	363	378				
+YLL051C	inside	379	387				
+YLL051C	TMhelix	388	405				
+YLL051C	outside	406	413				
+YLL051C	TMhelix	414	434				
+YLL051C	inside	435	712				
+//
+# YLL025W Length: 124
+# YLL025W Number of predicted TMRs: 0
+YLL025W	signal	1	20				
+YLL025W	outside	21	124				
+//
+# YLR001C Length: 862
+# YLR001C Number of predicted TMRs: 1
+YLR001C	signal	1	23				
+YLR001C	outside	24	760				
+YLR001C	TMhelix	761	784				
+YLR001C	inside	785	862				
+//
+# YLR037C Length: 124
+# YLR037C Number of predicted TMRs: 0
+YLR037C	signal	1	20				
+YLR037C	outside	21	124				
+//
+# YLR040C Length: 224
+# YLR040C Number of predicted TMRs: 0
+YLR040C	signal	1	25				
+YLR040C	outside	26	224				
+//
+# YLR042C Length: 161
+# YLR042C Number of predicted TMRs: 0
+YLR042C	signal	1	24				
+YLR042C	outside	25	161				
+//
+# YLR057W Length: 849
+# YLR057W Number of predicted TMRs: 1
+YLR057W	inside	1	16				
+YLR057W	TMhelix	17	32				
+YLR057W	outside	33	849				
+//
+# YLR064W Length: 273
+# YLR064W Number of predicted TMRs: 6
+YLR064W	inside	1	24				
+YLR064W	TMhelix	25	45				
+YLR064W	outside	46	57				
+YLR064W	TMhelix	58	74				
+YLR064W	inside	75	95				
+YLR064W	TMhelix	96	111				
+YLR064W	outside	112	112				
+YLR064W	TMhelix	113	134				
+YLR064W	inside	135	182				
+YLR064W	TMhelix	183	197				
+YLR064W	outside	198	203				
+YLR064W	TMhelix	204	220				
+YLR064W	inside	221	273				
+//
+# YLR080W Length: 444
+# YLR080W Number of predicted TMRs: 1
+YLR080W	signal	1	46				
+YLR080W	outside	47	412				
+YLR080W	TMhelix	413	432				
+YLR080W	inside	433	444				
+//
+# YLR083C Length: 667
+# YLR083C Number of predicted TMRs: 9
+YLR083C	signal	1	22				
+YLR083C	outside	23	305				
+YLR083C	TMhelix	306	327				
+YLR083C	inside	328	370				
+YLR083C	TMhelix	371	392				
+YLR083C	outside	393	401				
+YLR083C	TMhelix	402	423				
+YLR083C	inside	424	437				
+YLR083C	TMhelix	438	459				
+YLR083C	outside	460	473				
+YLR083C	TMhelix	474	495				
+YLR083C	inside	496	525				
+YLR083C	TMhelix	526	547				
+YLR083C	outside	548	560				
+YLR083C	TMhelix	561	582				
+YLR083C	inside	583	596				
+YLR083C	TMhelix	597	618				
+YLR083C	outside	619	635				
+YLR083C	TMhelix	636	656				
+YLR083C	inside	657	667				
+//
+# YLR084C Length: 1220
+# YLR084C Number of predicted TMRs: 1
+YLR084C	signal	1	20				
+YLR084C	outside	21	1160				
+YLR084C	TMhelix	1161	1185				
+YLR084C	inside	1186	1220				
+//
+# YLR110C Length: 133
+# YLR110C Number of predicted TMRs: 0
+YLR110C	signal	1	18				
+YLR110C	outside	19	133				
+//
+# YLR120C Length: 569
+# YLR120C Number of predicted TMRs: 0
+YLR120C	signal	1	21				
+YLR120C	outside	22	569				
+//
+# YLR121C Length: 508
+# YLR121C Number of predicted TMRs: 0
+YLR121C	signal	1	20				
+YLR121C	outside	21	508				
+//
+# YLR155C Length: 362
+# YLR155C Number of predicted TMRs: 0
+YLR155C	signal	1	25				
+YLR155C	outside	26	362				
+//
+# YLR194C Length: 254
+# YLR194C Number of predicted TMRs: 0
+YLR194C	signal	1	17				
+YLR194C	outside	18	254				
+//
+# YLR207W Length: 833
+# YLR207W Number of predicted TMRs: 1
+YLR207W	signal	1	20				
+YLR207W	outside	21	767				
+YLR207W	TMhelix	768	784				
+YLR207W	inside	785	833				
+//
+# YLR213C Length: 422
+# YLR213C Number of predicted TMRs: 0
+YLR213C	signal	1	20				
+YLR213C	outside	21	422				
+//
+# YLR214W Length: 686
+# YLR214W Number of predicted TMRs: 7
+YLR214W	signal	1	20				
+YLR214W	outside	21	146				
+YLR214W	TMhelix	147	169				
+YLR214W	inside	170	215				
+YLR214W	TMhelix	216	233				
+YLR214W	outside	234	257				
+YLR214W	TMhelix	258	274				
+YLR214W	inside	275	295				
+YLR214W	TMhelix	296	314				
+YLR214W	outside	315	331				
+YLR214W	TMhelix	332	349				
+YLR214W	inside	350	358				
+YLR214W	TMhelix	359	378				
+YLR214W	outside	379	386				
+YLR214W	TMhelix	387	407				
+YLR214W	inside	408	686				
+//
+# YLR237W Length: 598
+# YLR237W Number of predicted TMRs: 12
+YLR237W	inside	1	47				
+YLR237W	TMhelix	48	68				
+YLR237W	outside	69	77				
+YLR237W	TMhelix	78	94				
+YLR237W	inside	95	122				
+YLR237W	TMhelix	123	149				
+YLR237W	outside	150	173				
+YLR237W	TMhelix	174	190				
+YLR237W	inside	191	197				
+YLR237W	TMhelix	198	218				
+YLR237W	outside	219	240				
+YLR237W	TMhelix	241	261				
+YLR237W	inside	262	277				
+YLR237W	TMhelix	278	298				
+YLR237W	outside	299	329				
+YLR237W	TMhelix	330	353				
+YLR237W	inside	354	373				
+YLR237W	TMhelix	374	389				
+YLR237W	outside	390	393				
+YLR237W	TMhelix	394	414				
+YLR237W	inside	415	446				
+YLR237W	TMhelix	447	463				
+YLR237W	outside	464	478				
+YLR237W	TMhelix	479	500				
+YLR237W	inside	501	598				
+//
+# YLR250W Length: 234
+# YLR250W Number of predicted TMRs: 0
+YLR250W	signal	1	20				
+YLR250W	outside	21	234				
+//
+# YLR286C Length: 562
+# YLR286C Number of predicted TMRs: 0
+YLR286C	signal	1	20				
+YLR286C	outside	21	562				
+//
+# YLR300W Length: 448
+# YLR300W Number of predicted TMRs: 0
+YLR300W	signal	1	40				
+YLR300W	outside	41	448				
+//
+# YLR307W Length: 301
+# YLR307W Number of predicted TMRs: 0
+YLR307W	signal	1	22				
+YLR307W	outside	23	301				
+//
+# YLR308W Length: 312
+# YLR308W Number of predicted TMRs: 0
+YLR308W	signal	1	25				
+YLR308W	outside	26	312				
+//
+# YLR332W Length: 376
+# YLR332W Number of predicted TMRs: 1
+YLR332W	signal	1	25				
+YLR332W	outside	26	224				
+YLR332W	TMhelix	225	245				
+YLR332W	inside	246	376				
+//
+# YLR343W Length: 555
+# YLR343W Number of predicted TMRs: 0
+YLR343W	signal	1	24				
+YLR343W	outside	25	555				
+//
+# YLR390W-A Length: 238
+# YLR390W-A Number of predicted TMRs: 0
+YLR390W-A	signal	1	22				
+YLR390W-A	outside	23	238				
+//
+# YLR406C-A Length: 49
+# YLR406C-A Number of predicted TMRs: 0
+YLR406C-A	signal	1	20				
+YLR406C-A	outside	21	49				
+//
+# YLR461W Length: 120
+# YLR461W Number of predicted TMRs: 0
+YLR461W	signal	1	25				
+YLR461W	outside	26	120				
+//
+# YML130C Length: 563
+# YML130C Number of predicted TMRs: 0
+YML130C	signal	1	18				
+YML130C	outside	19	563				
+//
+# YML128C Length: 513
+# YML128C Number of predicted TMRs: 0
+YML128C	signal	1	22				
+YML128C	outside	23	513				
+//
+# YML059C Length: 1679
+# YML059C Number of predicted TMRs: 3
+YML059C	outside	1	52				
+YML059C	TMhelix	53	68				
+YML059C	inside	69	77				
+YML059C	TMhelix	78	87				
+YML059C	outside	88	105				
+YML059C	TMhelix	106	121				
+YML059C	inside	122	1679				
+//
+# YML038C Length: 442
+# YML038C Number of predicted TMRs: 10
+YML038C	inside	1	3				
+YML038C	TMhelix	4	22				
+YML038C	outside	23	39				
+YML038C	TMhelix	40	60				
+YML038C	inside	61	80				
+YML038C	TMhelix	81	102				
+YML038C	outside	103	108				
+YML038C	TMhelix	109	125				
+YML038C	inside	126	134				
+YML038C	TMhelix	135	153				
+YML038C	outside	154	167				
+YML038C	TMhelix	168	188				
+YML038C	inside	189	251				
+YML038C	TMhelix	252	267				
+YML038C	outside	268	297				
+YML038C	TMhelix	298	318				
+YML038C	inside	319	328				
+YML038C	TMhelix	329	349				
+YML038C	outside	350	356				
+YML038C	TMhelix	357	376				
+YML038C	inside	377	442				
+//
+# YML012W Length: 211
+# YML012W Number of predicted TMRs: 1
+YML012W	signal	1	20				
+YML012W	outside	21	180				
+YML012W	TMhelix	181	201				
+YML012W	inside	202	211				
+//
+# YMR006C Length: 706
+# YMR006C Number of predicted TMRs: 0
+YMR006C	signal	1	19				
+YMR006C	outside	20	706				
+//
+# YMR008C Length: 664
+# YMR008C Number of predicted TMRs: 0
+YMR008C	signal	1	22				
+YMR008C	outside	23	664				
+//
+# YMR010W Length: 405
+# YMR010W Number of predicted TMRs: 7
+YMR010W	outside	1	48				
+YMR010W	TMhelix	49	70				
+YMR010W	inside	71	82				
+YMR010W	TMhelix	83	102				
+YMR010W	outside	103	106				
+YMR010W	TMhelix	107	128				
+YMR010W	inside	129	220				
+YMR010W	TMhelix	221	242				
+YMR010W	outside	243	247				
+YMR010W	TMhelix	248	269				
+YMR010W	inside	270	285				
+YMR010W	TMhelix	286	305				
+YMR010W	outside	306	311				
+YMR010W	TMhelix	312	334				
+YMR010W	inside	335	405				
+//
+# YMR013C Length: 519
+# YMR013C Number of predicted TMRs: 17
+YMR013C	inside	1	50				
+YMR013C	TMhelix	51	69				
+YMR013C	outside	70	86				
+YMR013C	TMhelix	87	104				
+YMR013C	inside	105	116				
+YMR013C	TMhelix	117	133				
+YMR013C	outside	134	138				
+YMR013C	TMhelix	139	150				
+YMR013C	inside	151	155				
+YMR013C	TMhelix	156	172				
+YMR013C	outside	173	177				
+YMR013C	TMhelix	178	198				
+YMR013C	inside	199	205				
+YMR013C	TMhelix	206	221				
+YMR013C	outside	222	228				
+YMR013C	TMhelix	229	249				
+YMR013C	inside	250	257				
+YMR013C	TMhelix	258	278				
+YMR013C	outside	279	298				
+YMR013C	TMhelix	299	318				
+YMR013C	inside	319	330				
+YMR013C	TMhelix	331	346				
+YMR013C	outside	347	349				
+YMR013C	TMhelix	350	368				
+YMR013C	inside	369	396				
+YMR013C	TMhelix	397	414				
+YMR013C	outside	415	418				
+YMR013C	TMhelix	419	435				
+YMR013C	inside	436	453				
+YMR013C	TMhelix	454	468				
+YMR013C	outside	469	480				
+YMR013C	TMhelix	481	496				
+YMR013C	inside	497	502				
+YMR013C	TMhelix	503	517				
+YMR013C	outside	518	519				
+//
+# YMR030W-A Length: 96
+# YMR030W-A Number of predicted TMRs: 0
+YMR030W-A	inside	1	96				
+//
+# YMR065W Length: 504
+# YMR065W Number of predicted TMRs: 1
+YMR065W	signal	1	19				
+YMR065W	outside	20	452				
+YMR065W	TMhelix	453	464				
+YMR065W	inside	465	504				
+//
+# YMR149W Length: 286
+# YMR149W Number of predicted TMRs: 3
+YMR149W	signal	1	19				
+YMR149W	outside	20	192				
+YMR149W	TMhelix	193	215				
+YMR149W	inside	216	231				
+YMR149W	TMhelix	232	253				
+YMR149W	outside	254	256				
+YMR149W	TMhelix	257	279				
+YMR149W	inside	280	286				
+//
+# YMR155W Length: 547
+# YMR155W Number of predicted TMRs: 12
+YMR155W	inside	1	21				
+YMR155W	TMhelix	22	41				
+YMR155W	outside	42	56				
+YMR155W	TMhelix	57	77				
+YMR155W	inside	78	83				
+YMR155W	TMhelix	84	104				
+YMR155W	outside	105	111				
+YMR155W	TMhelix	112	133				
+YMR155W	inside	134	148				
+YMR155W	TMhelix	149	169				
+YMR155W	outside	170	176				
+YMR155W	TMhelix	177	196				
+YMR155W	inside	197	319				
+YMR155W	TMhelix	320	340				
+YMR155W	outside	341	365				
+YMR155W	TMhelix	366	385				
+YMR155W	inside	386	397				
+YMR155W	TMhelix	398	416				
+YMR155W	outside	417	435				
+YMR155W	TMhelix	436	458				
+YMR155W	inside	459	469				
+YMR155W	TMhelix	470	490				
+YMR155W	outside	491	514				
+YMR155W	TMhelix	515	535				
+YMR155W	inside	536	547				
+//
+# YMR182W-A Length: 28
+# YMR182W-A Number of predicted TMRs: 0
+YMR182W-A	inside	1	28				
+//
+# YMR200W Length: 256
+# YMR200W Number of predicted TMRs: 0
+YMR200W	signal	1	24				
+YMR200W	outside	25	256				
+//
+# YMR214W Length: 377
+# YMR214W Number of predicted TMRs: 0
+YMR214W	signal	1	21				
+YMR214W	outside	22	377				
+//
+# YMR215W Length: 524
+# YMR215W Number of predicted TMRs: 0
+YMR215W	signal	1	21				
+YMR215W	outside	22	524				
+//
+# YMR238W Length: 458
+# YMR238W Number of predicted TMRs: 1
+YMR238W	signal	1	26				
+YMR238W	outside	27	438				
+YMR238W	TMhelix	439	457				
+YMR238W	inside	458	458				
+//
+# YMR244W Length: 355
+# YMR244W Number of predicted TMRs: 0
+YMR244W	signal	1	47				
+YMR244W	outside	48	355				
+//
+# YMR247W-A Length: 47
+# YMR247W-A Number of predicted TMRs: 0
+YMR247W-A	inside	1	47				
+//
+# YMR251W-A Length: 59
+# YMR251W-A Number of predicted TMRs: 0
+YMR251W-A	signal	1	19				
+YMR251W-A	outside	20	59				
+//
+# YMR272W-B Length: 35
+# YMR272W-B Number of predicted TMRs: 0
+YMR272W-B	inside	1	35				
+//
+# YMR297W Length: 532
+# YMR297W Number of predicted TMRs: 0
+YMR297W	signal	1	20				
+YMR297W	outside	21	532				
+//
+# YMR305C Length: 389
+# YMR305C Number of predicted TMRs: 0
+YMR305C	signal	1	29				
+YMR305C	outside	30	389				
